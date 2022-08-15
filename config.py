@@ -1,1 +1,1 @@
-MONGO_URL="mongodb+srv://hillinhank:groupblue@cluster0.ffmxu49.mongodb.net/17_22_merged?retryWrites=true&w=majority"
+MONGO_URL="mongodb+srv://hillinhank:groupblue@cluster0.ffmxu49.mongodb.net/?retryWrites=true&w=majority"
