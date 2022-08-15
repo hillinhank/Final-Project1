@@ -4,7 +4,7 @@ from flask_pymongo import PyMongo
 # import scraping
 import random
 # import requests
-from config import MONGO_URL
+from config import MONGO_URI
 import os
 
 
@@ -12,7 +12,7 @@ import os
 app = Flask(__name__)
 
 #Use pyMondo to set up mongo connection
-app.config["MONGO_URL"] = os.environ.get(MONGO_URL)
+app.config["MONGO_URI"] = os.environ.get(MONGO_URI)
 mongo = PyMongo(app)
 
 
